@@ -1,14 +1,23 @@
 body{
      background-color: #eeeeee;
      line-height: 1.6em;
- }
+}
+
+#header{
+    text-align: center;
+    place-items: center;
+}
+
+#footer{
+    text-align: center;
+}
 
 a{
     text-decoration: none;
-    color: #393e46
+    color: #32e0c4
 }
 a:hover{
-   color: #222831 
+   color: #393e46 
 }
 
 .container{
@@ -16,18 +25,7 @@ a:hover{
     margin: auto;
     
 }
-.container1{
-    display: block;
-    position: relative;
-    margin-bottom: 6px;
-    cursor: pointer;
-    user-select: none;    
-}
-.container1 input{
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
-}
+
 .para{
     color: #222831;
     font-family: 'Ubuntu', sans-derif, Arial, Helvetica, sans-serif;
@@ -39,7 +37,7 @@ a:hover{
 }
 
 .list{
-     border: 1px #393e46 solid;
+     border: 3px #393e46 solid;
      padding: 10px;
      border-radius: 15px;
     
