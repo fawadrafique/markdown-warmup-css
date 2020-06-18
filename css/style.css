@@ -1,0 +1,55 @@
+body{
+     background-color: #eeeeee;
+     line-height: 1.6em;
+ }
+
+a{
+    text-decoration: none;
+    color: #393e46
+}
+a:hover{
+   color: #222831 
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    
+}
+.container1{
+    display: block;
+    position: relative;
+    margin-bottom: 6px;
+    cursor: pointer;
+    user-select: none;    
+}
+.container1 input{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+.para{
+    color: #222831;
+    font-family: 'Ubuntu', sans-derif, Arial, Helvetica, sans-serif;
+}
+
+.head{
+    color: #32e0c4;
+    font-family: 'Lora', serif, 'Ubuntu', sans-derif, Arial, Helvetica, sans-serif;
+}
+
+.list{
+     border: 1px #393e46 solid;
+     padding: 10px;
+     border-radius: 15px;
+    
+}
+
+.list ul{
+      list-style: square;
+}
+
+.list li{
+      padding-bottom: 6px;
+
+}
